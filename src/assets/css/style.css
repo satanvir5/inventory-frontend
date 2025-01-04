@@ -1,0 +1,205 @@
+/* main.css */
+/* Common Styles for Buttons, Links, and Layout */
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+
+  
+  /* product-list.css */
+table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  table th, table td {
+    padding: 15px;
+    text-align: center;
+  }
+  
+  table .btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  table .btn-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  table .btn-warning {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  table .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+
+  /* sidebar.css */
+.wrapper {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 250px;
+    background-color: #2f3b52;
+    color: white;
+    height: 100vh;
+    padding-top: 20px;
+    position: fixed;
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin: 20px 0;
+  }
+  
+  .sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #404a64;
+  }
+  
+  .content {
+    margin-left: 250px;
+    padding: 20px;
+    width: 100%;
+  }
+
+  /* main.css */
+/* Common Styles for Buttons, Links, and Layout */
+
+.btn {
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .btn-info {
+    background-color: #17a2b8;
+    color: white;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    color: white;
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  
+  .landing-page {
+    text-align: center;
+  }
+  
+  .hero {
+    background-color: #f1f1f1;
+    padding: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 1.5em;
+  }
+  
+  .hero .btn {
+    font-size: 1.2em;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .products-gallery {
+    margin-top: 50px;
+  }
+  
+  .products-gallery .product-list {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .products-gallery .product {
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .products-gallery .product img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .products-gallery .btn {
+    margin-top: 10px;
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
